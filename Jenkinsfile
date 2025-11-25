@@ -29,7 +29,7 @@ pipeline {
             }
             steps {
                 echo 'Test stage'
-
+                sh 'ls -l build/index.html'
             }
         }
     }
